@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Javascript: Under The Hood</h1>
+    <h3>Async js</h3>
+    <ul>
+      <li>call stack</li>
+      <li>setTimeout(() => {}, 2000)</li>
+      <li>setTimeout goes to callback queue</li>
+      <li>checks if callstack is empty</li>
+      <li>once empty, puts callback into call stack</li>
+    </ul>
+    <h3>Purpose of async js?</h3>
+    <ul>
+      <li>you can load your page</li>
+      <li>in background you can fetch your tweets, etc.</li>
+    </ul>
+    <script src="app.js"></script>
+  </body>
+</html>
